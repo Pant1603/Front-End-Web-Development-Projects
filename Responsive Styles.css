@@ -1,0 +1,63 @@
+body {
+    font-family: Adlam Display;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.plan h2 {
+    color: orangered;
+}
+
+.plan p.price {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.plan button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.plan button:hover {
+    background-color: #0056b3;
+}
+
+.recommended {
+    border: 2px solid #007BFF;
+}
